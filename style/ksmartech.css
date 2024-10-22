@@ -1,0 +1,191 @@
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.allwrap{}
+
+
+/* 헤더 */
+div.allwrap>div.hdrwrap{}
+div.allwrap>div.hdrwrap>div.hdr{
+    width: 80%;
+    max-width: 1080px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+div.allwrap>div.hdrwrap>div.hdr>h1{}
+
+div.allwrap>div.hdrwrap>div.hdr>h1>img{
+    line-height: 80px;
+}
+
+
+div.allwrap>div.hdrwrap>div.hdr>ul.navbar{
+    width: calc(100% / 12 * 5);
+    display: flex;
+    justify-content: space-between;
+
+}
+div.allwrap>div.hdrwrap>div.hdr>ul.navbar>li{
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+div.allwrap>div.hdrwrap>div.hdr>ul.language{
+    width: calc(100% / 12 * 1);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+div.allwrap>div.hdrwrap>div.hdr>ul.language>li{
+    line-height: 80px;
+}
+
+div.allwrap>div.hdrwrap>div.hdr>div.button{
+    background-color: #643c3c;
+    width: 48px;
+    height: 48px;
+}
+
+
+
+/* 메인배너 */
+div.allwrap>div.mainwrap{
+    background-color: #ddc4c4;
+}
+div.allwrap>div.mainwrap>div.main{
+    width: 100%;
+    height: 600px;
+
+}
+
+
+/* 컨텐츠 공통 */
+div.cntwrap{}
+
+
+/* 컨텐츠 뉴스 */
+div.cntwrap>div.cnt.news{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    border: 1px solid rgb(194, 194, 194);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 40px;
+}
+div.cntwrap>div.cnt.news>div.text{}
+
+div.cntwrap>div.cnt.news>div.text>div.button{}
+
+div.cntwrap>div.cnt.news>div.button>button{
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #fff;
+}
+
+
+/* 컨텐츠 서비스 */
+div.cntwrap>div.cnt.service{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+div.cntwrap>div.cnt.service>h2{
+    line-height: 80px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+div.cntwrap>div.cnt.service>div.section{
+    display: flex;
+    justify-content: space-between;
+}
+div.cntwrap>div.cnt.service>div.section>div.article{
+    width: calc(100% / 3 - 10px);
+}
+div.cntwrap>div.cnt.service>div.section>div.article>img{
+    width: 100%;
+    height: 480px;
+    background-color: #e6e6e6;
+}
+div.cntwrap>div.cnt.service>div.section>div.article>div.txt{
+    margin-top: -100px;
+}
+div.cntwrap>div.cnt.service>div.section>div.article>div.txt>h4{}
+div.cntwrap>div.cnt.service>div.section>div.article>div.txt>h3{}
+
+
+/* 컨텐츠 수상 및 특허 */
+div.cntwrap>div.cnt.prize{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+div.cntwrap>div.cnt.prize>div.title{}
+div.cntwrap>div.cnt.prize>div.title>h2{}
+div.cntwrap>div.cnt.prize>div.title>p{}
+
+div.cntwrap>div.cnt.prize>div.patent{}
+div.cntwrap>div.cnt.prize>div.patent>div.text{}
+div.cntwrap>div.cnt.prize>div.patent>div.text>h2{}
+div.cntwrap>div.cnt.prize>div.patent>div.text>p{}
+
+div.cntwrap>div.cnt.prize>div.certification{}
+div.cntwrap>div.cnt.prize>div.certification>div.text{}
+div.cntwrap>div.cnt.prize>div.certification>div.text>h2{}
+div.cntwrap>div.cnt.prize>div.certification>div.text>p{}
+
+div.cntwrap>div.cnt.prize>div.prize{}
+div.cntwrap>div.cnt.prize>div.prize>div.text{}
+div.cntwrap>div.cnt.prize>div.prize>div.text>h2{}
+div.cntwrap>div.cnt.prize>div.prize>div.text>p{}
+
+
+
+/* 컨텐츠 사업분야 */
+div.cnt.business{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+div.cnt.business>div.title{}
+div.cnt.business>div.title>h2{}
+div.cnt.business>div.title>p{}
+
+div.cnt.business>div.section{}
+div.cnt.business>div.section>div.article{}
+div.cnt.business>div.section>div.article>div.image{}
+div.cnt.business>div.section>div.article>div.text{}
+div.cnt.business>div.section>div.article>div.text>h3{}
+div.cnt.business>div.section>div.article>div.text>div.line{}
+div.cnt.business>div.section>div.article>div.text>p{}
+
+
+/* 푸터 */
+div.footerwrap{}
+div.footerwrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+div.footerwrap>div.footer>div.infowrap{}
+div.footerwrap>div.footer>div.infowrap>ul.info{}
+div.footerwrap>div.footer>div.infowrap>ul.info>li{}
+
+div.footerwrap>div.footer>div.infowrap>p{}
+
+div.footerwrap>div.footer>div.button{}
+div.footerwrap>div.footer>div.button>button{}
